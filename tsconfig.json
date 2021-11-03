@@ -2,15 +2,14 @@
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
-    "target": "es6",
+    "target": "es2015",
     "moduleResolution": "node",
-    "sourceMap": true,
     "strictNullChecks": true,
-    "outDir": "dist"
+    "outDir": "solutions/JavaScript"
   },
   "lib": ["es2015"],
   "include": [
-      "solutions/*.ts"
+    "solutions/TypeScript/*.ts" 
   ],
   "exclude": [
       "node_modules"

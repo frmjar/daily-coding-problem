@@ -11,4 +11,3 @@ function checkSum (nums, k) {
 }
 const result = checkSum([10, 15, 3, 7], 17)
 console.log(result)
-// # sourceMappingURL=problem_001.js.map
