@@ -4,7 +4,9 @@
   "description": "Solutions to problems sent by dailycodingproblem.com",
   "author": "Félix Redondo",
   "license": "MIT",
+  "type": "module",
   "main": "index.js",
+
   "repository": {
     "type": "git",
     "url": "https://github.com/frmjar/daily-coding-problem"
@@ -12,6 +14,7 @@
   "scripts": {
     "problem_001": "tsc && eslint --fix . && node solutions/JavaScript/problem_001.js",
     "problem_002": "tsc && eslint --fix . && node solutions/JavaScript/problem_002.js",
+    "problem_003": "tsc && eslint --fix . && node solutions/JavaScript/problem_003.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

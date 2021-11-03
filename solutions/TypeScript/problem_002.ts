@@ -1,6 +1,6 @@
 // With division
 function productOfArray (arr: number[]): number[] {
-  const mult = arr.reduce((acc, curr) => acc * curr, 1)
+  const mult: number = arr.reduce((acc, curr) => acc * curr, 1)
   return arr.map(x => mult / x)
 }
 
@@ -9,7 +9,7 @@ function productOfArray2 (arr: number[]): number[] {
   const productRight: number[] = []
   const productLeft: number[] = []
 
-  let aux = 1
+  let aux: number = 1
   arr.forEach((x: number, i: number) => {
     if (i !== 0) {
       aux *= arr[i - 1]
@@ -17,7 +17,7 @@ function productOfArray2 (arr: number[]): number[] {
     productLeft.push(aux)
   })
 
-  const len = arr.length - 1
+  const len: number = arr.length - 1
   aux = 1
   arr.reverse().forEach((x: number, i: number) => {
     if (i !== 0) {
