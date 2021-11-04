@@ -12,4 +12,4 @@ function findMissing (arr) {
 }
 console.log(findMissing([3, 4, -1, 1])) // 2
 console.log(findMissing([1, 2, 0])) // 3
-console.log(findMissing([1, -2, 4, 5, 6, 3, 7, 9])) // 3
+console.log(findMissing([1, -2, 4, 5, 6, 3, 7, 9])) // 2

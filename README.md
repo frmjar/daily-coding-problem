@@ -37,7 +37,7 @@ Given the root to a binary tree, implement serialize(root), which serializes the
 
 For example, given the following Node class
 
-```javascript
+```python
 class Node:
     def **init**(self, val, left=None, right=None):
     self.val = val
@@ -46,7 +46,7 @@ class Node:
 ```
 The following test should pass:
 
-```javascript
+```python
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
@@ -54,7 +54,6 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 [Solution TypeScript](solutions/TypeScript/problem_003.ts)
 
 [Solution JavaScript](solutions/JavaScript/problem_003.js)
-
 
 ---
 
@@ -70,3 +69,22 @@ You can modify the input array in-place.
 [Solution TypeScript](solutions/TypeScript/problem_004.ts)
 
 [Solution JavaScript](solutions/JavaScript/problem_004.js)
+
+---
+
+### Problem 5
+
+```cons(a, b)``` constructs a pair, and ```car(pair)``` and ```cdr(pair)``` returns the first and last element of that pair. For example, ```car(cons(3, 4)) returns 3```, and ```cdr(cons(3, 4)) returns 4```.
+
+Given this implementation of cons:
+```python
+def cons(a, b):
+    def pair(f):
+        return f(a, b)
+    return pair
+```
+Implement car and cdr.
+
+[Solution TypeScript](solutions/TypeScript/problem_005.ts)
+
+[Solution JavaScript](solutions/JavaScript/problem_005.js)
