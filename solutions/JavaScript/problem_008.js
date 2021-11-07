@@ -1,4 +1,3 @@
-// implement binary tree
 class UnivalTree {
   constructor (value, left = null, right = null) {
     this.value = value
