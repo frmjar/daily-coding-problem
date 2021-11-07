@@ -99,6 +99,10 @@ For example, ```the message '111' would give 3```, since it could be decoded as 
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
+[Solution TypeScript](solutions/TypeScript/problem_007.ts)
+
+[Solution JavaScript](solutions/JavaScript/problem_007.js)
+
 ---
 
 ### Problem 8
@@ -119,6 +123,10 @@ For example, the following tree has 5 unival subtrees:
  1   1
  ```
 
+ [Solution TypeScript](solutions/TypeScript/problem_008.ts)
+
+ [Solution JavaScript](solutions/JavaScript/problem_008.js)
+
  --- 
 
 ### Problem 9
@@ -129,8 +137,30 @@ For example, ```[2, 4, 6, 2, 5]``` should return ```13```, since we pick ```2```
 
 Follow-up: Can you do this in O(N) time and constant space?
 
+[Solution TypeScript](solutions/TypeScript/problem_009.ts)
+
+[Solution JavaScript](solutions/JavaScript/problem_009.js)s
+
 ---
 
 ### Problem 10
 
 Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
+
+[Solution TypeScript](solutions/TypeScript/problem_010.ts)
+
+[Solution JavaScript](solutions/JavaScript/problem_010.js)
+
+---
+
+### Problem 11
+
+Implement an autocomplete system. That is, given a query string s and a set of all possible query strings, return all strings in the set that have s as a prefix.
+
+For example, given the query string de and the set of strings [dog, deer, deal], return [deer, deal].
+
+Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
+
+[Solution TypeScript](solutions/TypeScript/problem_011.ts)
+
+[Solution JavaScript](solutions/JavaScript/problem_011.js)
