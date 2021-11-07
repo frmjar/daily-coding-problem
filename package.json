@@ -19,6 +19,7 @@
     "problem_007": "tsc && eslint --fix . && node solutions/JavaScript/problem_007.js",
     "problem_008": "tsc && eslint --fix . && node solutions/JavaScript/problem_008.js",
     "problem_009": "tsc && eslint --fix . && node solutions/JavaScript/problem_009.js",
+    "problem_010": "tsc && eslint --fix . && node solutions/JavaScript/problem_010.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
