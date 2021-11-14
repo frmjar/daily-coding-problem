@@ -198,3 +198,15 @@ For example, given s = "abcba" and k = 2, the longest substring with k distinct 
 [Solution TypeScript](solutions/TypeScript/problem_013.ts)
 
 [Solution JavaScript](solutions/JavaScript/problem_013.js)
+
+---
+
+### Problem 14
+
+The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
+
+Hint: The basic equation of a circle is x2 + y2 = r2.
+
+[Solution TypeScript](solutions/TypeScript/problem_014.ts)
+
+[Solution JavaScript](solutions/JavaScript/problem_014.js)

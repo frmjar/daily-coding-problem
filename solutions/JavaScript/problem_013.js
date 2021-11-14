@@ -17,4 +17,4 @@ function longestSubstring (s, k) {
   }
   return longest
 }
-console.log(longestSubstring('abcba', 3))
+console.log(longestSubstring('abcba', 2)) // 2
