@@ -8,7 +8,6 @@ class Log {
   record (orderId) {
     this.orders[this.index % this.size] = orderId
     this.index++
-    console.log(this.orders)
   }
   getLast (i) {
     const realIndex = (this.index - i) % this.size
