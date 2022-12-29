@@ -210,3 +210,15 @@ Hint: The basic equation of a circle is x2 + y2 = r2.
 [Solution TypeScript](solutions/TypeScript/problem_014.ts)
 
 [Solution JavaScript](solutions/JavaScript/problem_014.js)
+
+---
+
+### Problem 15
+
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
+[Solution TypeScript](solutions/TypeScript/problem_015.ts)
+
+[Solution JavaScript](solutions/JavaScript/problem_015.js)
+
+---

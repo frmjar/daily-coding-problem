@@ -24,13 +24,15 @@
     "problem_012": "tsc && eslint --fix . && node solutions/JavaScript/problem_012.js",
     "problem_013": "tsc && eslint --fix . && node solutions/JavaScript/problem_013.js",
     "problem_014": "tsc && eslint --fix . && node solutions/JavaScript/problem_014.js",
+    "problem_015": "tsc && eslint --fix . && node solutions/JavaScript/problem_015.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@types/node": "^16.11.6",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
     "eslint-config-ts-standard": "^1.0.5",
-    "ts-standard": "^10.0.0",
-    "typescript": "^4.4.4"
+    "ts-standard": "^12.0.2",
+    "typescript": "^4.9.4"
   },
   "eslintConfig": {
     "extends": "ts-standard"
